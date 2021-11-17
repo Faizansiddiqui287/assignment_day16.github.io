@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#navbar{
+    background-color: rgb(248, 244, 244);
+    
+}
+.menu{
+    display: inline-block;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+}
+.men{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    margin: 5px;
+}
+#wiki{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#posts:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+#files:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+#middle{
+    margin: 20px;
+}
+
+.para{
+    margin: 4px;
+}
+
+#table1, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#table1{
+    width: 80%;
+    height: 125px;
+    margin-top: 0px;
+}
+
+#table2, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#table2{
+    width: 80%;
+    height: 10px;
+}
+
+#table3, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#table3{
+    width: 80%;
+    height: 10px;
+}
+
+/* This css code is apply for assingment 1 on Nov 16 (Giving altering background) */
+
+#table1 thead tr:nth-child(1){
+    background-color: rgb(246, 153, 200);
+}
+
+#table1 tr:nth-child(1){
+    background-color: rgb(245, 239, 182);
+}
+
+#table2 thead tr:nth-child(2n){
+    background-color: #b1f3c2;
+}
+#table2 thead tr:nth-child(2n+1){
+    background-color: #dfeb94;
+}
+#table3 thead tr:nth-child(1){
+    background-color: rgb(250, 208, 111);
+}
+
+#table3 tbody tr:nth-child(3n){
+    background-color: rgb(246, 170, 170);
+}
+#table3 tbody tr:nth-child(3n+1){
+    background-color:#bff5d2;
+}
+#table3 tbody tr:nth-child(3n+2){
+    background-color: #b69edb;
+}
+
